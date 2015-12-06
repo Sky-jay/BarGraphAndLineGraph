@@ -21,6 +21,7 @@
 - (void)drawRect:(CGRect)rect {
     // Drawing code
     [self drawCoordinateSystemWithRect:rect];
+    [self drawLineWithRect:rect];
 }
 
 - (void)drawCoordinateSystemWithRect:(CGRect)rect
@@ -63,6 +64,29 @@
     }
     
     CGContextRestoreGState(ctx);
+}
+
+- (void)drawLineWithRect:(CGRect)rect
+{
+    UIImage *image = [UIImage imageNamed:@"Little"];
+    CGContextRef ctx = UIGraphicsGetCurrentContext();
+    
+    CGContextMoveToPoint(ctx, kLeftMargin + 0 * 50, kRectH - kBottomMargin - 100);
+    [image drawInRect:CGRectMake(kLeftMargin + 0 * 50 - 4, kRectH - kBottomMargin - 100 - 4, 8, 8)];
+    
+    CGContextAddLineToPoint(ctx, kLeftMargin + 1 * 50, kRectH - kBottomMargin - 150);
+    [image drawInRect:CGRectMake(kLeftMargin + 1 * 50 - 4, kRectH - kBottomMargin - 150 - 4, 8, 8)];
+    CGContextAddLineToPoint(ctx, kLeftMargin + 2 * 50, kRectH - kBottomMargin - 100);
+    [image drawInRect:CGRectMake(kLeftMargin + 2 * 50 - 4, kRectH - kBottomMargin - 100 - 4, 8, 8)];
+    CGContextAddLineToPoint(ctx, kLeftMargin + 3 * 50, kRectH - kBottomMargin - 200);
+    [image drawInRect:CGRectMake(kLeftMargin + 3 * 50 - 4, kRectH - kBottomMargin - 200 - 4, 8, 8)];
+    CGContextAddLineToPoint(ctx, kLeftMargin + 4 * 50, kRectH - kBottomMargin - 200);
+    [image drawInRect:CGRectMake(kLeftMargin + 4 * 50 - 4, kRectH - kBottomMargin - 200 - 4, 8, 8)];
+    CGContextAddLineToPoint(ctx, kLeftMargin + 5 * 50, kRectH - kBottomMargin - 250);
+    [image drawInRect:CGRectMake(kLeftMargin + 5 * 50 - 4, kRectH - kBottomMargin - 250 - 4, 8, 8)];
+    CGContextAddLineToPoint(ctx, kLeftMargin + 6 * 50, kRectH - kBottomMargin - 350);
+    [image drawInRect:CGRectMake(kLeftMargin + 6 * 50 - 4, kRectH - kBottomMargin - 350 - 4, 8, 8)];
+    CGContextStrokePath(ctx);
 }
 
 @end
