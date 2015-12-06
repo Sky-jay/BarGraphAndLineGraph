@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BarGraphVC.h
 //  BarGraphAndLineGraph
 //
 //  Created by qingyun on 15/12/6.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
-
+@interface BarGraphVC : UIViewController
 
 @end
-

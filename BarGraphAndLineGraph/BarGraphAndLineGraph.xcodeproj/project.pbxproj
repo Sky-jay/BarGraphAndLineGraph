@@ -14,6 +14,13 @@
 		CC75F4A41C1477D40041ED4D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC75F4A31C1477D40041ED4D /* Images.xcassets */; };
 		CC75F4A71C1477D40041ED4D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC75F4A51C1477D40041ED4D /* LaunchScreen.xib */; };
 		CC75F4B31C1477D40041ED4D /* BarGraphAndLineGraphTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC75F4B21C1477D40041ED4D /* BarGraphAndLineGraphTests.m */; };
+		CC75F4BF1C1478C50041ED4D /* Little.png in Resources */ = {isa = PBXBuildFile; fileRef = CC75F4BE1C1478C50041ED4D /* Little.png */; };
+		CC75F4C31C1478FB0041ED4D /* BarGraphVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC75F4C11C1478FB0041ED4D /* BarGraphVC.m */; };
+		CC75F4C41C1478FB0041ED4D /* BarGraphVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC75F4C21C1478FB0041ED4D /* BarGraphVC.xib */; };
+		CC75F4C71C1479210041ED4D /* BarView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC75F4C61C1479210041ED4D /* BarView.m */; };
+		CC75F4CB1C1479E30041ED4D /* LineGraphVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC75F4C91C1479E30041ED4D /* LineGraphVC.m */; };
+		CC75F4CC1C1479E30041ED4D /* LineGraphVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC75F4CA1C1479E30041ED4D /* LineGraphVC.xib */; };
+		CC75F4CF1C147A290041ED4D /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC75F4CE1C147A290041ED4D /* LineView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +39,25 @@
 		CC75F4981C1477D40041ED4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC75F49A1C1477D40041ED4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CC75F49B1C1477D40041ED4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CC75F49D1C1477D40041ED4D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CC75F49E1C1477D40041ED4D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC75F49D1C1477D40041ED4D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		CC75F49E1C1477D40041ED4D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		CC75F4A11C1477D40041ED4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC75F4A31C1477D40041ED4D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CC75F4A61C1477D40041ED4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CC75F4AC1C1477D40041ED4D /* BarGraphAndLineGraphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarGraphAndLineGraphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC75F4B11C1477D40041ED4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC75F4B21C1477D40041ED4D /* BarGraphAndLineGraphTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarGraphAndLineGraphTests.m; sourceTree = "<group>"; };
+		CC75F4BE1C1478C50041ED4D /* Little.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Little.png; sourceTree = "<group>"; };
+		CC75F4C01C1478FB0041ED4D /* BarGraphVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarGraphVC.h; sourceTree = "<group>"; };
+		CC75F4C11C1478FB0041ED4D /* BarGraphVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarGraphVC.m; sourceTree = "<group>"; };
+		CC75F4C21C1478FB0041ED4D /* BarGraphVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BarGraphVC.xib; path = ../Controllers/BarGraphVC.xib; sourceTree = "<group>"; };
+		CC75F4C51C1479210041ED4D /* BarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarView.h; sourceTree = "<group>"; };
+		CC75F4C61C1479210041ED4D /* BarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarView.m; sourceTree = "<group>"; };
+		CC75F4C81C1479E30041ED4D /* LineGraphVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineGraphVC.h; sourceTree = "<group>"; };
+		CC75F4C91C1479E30041ED4D /* LineGraphVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineGraphVC.m; sourceTree = "<group>"; };
+		CC75F4CA1C1479E30041ED4D /* LineGraphVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LineGraphVC.xib; path = ../Controllers/LineGraphVC.xib; sourceTree = "<group>"; };
+		CC75F4CD1C147A290041ED4D /* LineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineView.h; sourceTree = "<group>"; };
+		CC75F4CE1C147A290041ED4D /* LineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +99,8 @@
 		CC75F4951C1477D40041ED4D /* BarGraphAndLineGraph */ = {
 			isa = PBXGroup;
 			children = (
-				CC75F49A1C1477D40041ED4D /* AppDelegate.h */,
-				CC75F49B1C1477D40041ED4D /* AppDelegate.m */,
-				CC75F49D1C1477D40041ED4D /* ViewController.h */,
-				CC75F49E1C1477D40041ED4D /* ViewController.m */,
-				CC75F4A01C1477D40041ED4D /* Main.storyboard */,
-				CC75F4A31C1477D40041ED4D /* Images.xcassets */,
-				CC75F4A51C1477D40041ED4D /* LaunchScreen.xib */,
+				CC75F4BC1C1478A70041ED4D /* Controllers */,
+				CC75F4BD1C1478A70041ED4D /* Views */,
 				CC75F4961C1477D40041ED4D /* Supporting Files */,
 			);
 			path = BarGraphAndLineGraph;
@@ -96,6 +109,11 @@
 		CC75F4961C1477D40041ED4D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CC75F4BE1C1478C50041ED4D /* Little.png */,
+				CC75F49A1C1477D40041ED4D /* AppDelegate.h */,
+				CC75F49B1C1477D40041ED4D /* AppDelegate.m */,
+				CC75F4A31C1477D40041ED4D /* Images.xcassets */,
+				CC75F4A51C1477D40041ED4D /* LaunchScreen.xib */,
 				CC75F4971C1477D40041ED4D /* Info.plist */,
 				CC75F4981C1477D40041ED4D /* main.m */,
 			);
@@ -117,6 +135,33 @@
 				CC75F4B11C1477D40041ED4D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC75F4BC1C1478A70041ED4D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC75F49D1C1477D40041ED4D /* ViewController.h */,
+				CC75F49E1C1477D40041ED4D /* ViewController.m */,
+				CC75F4C01C1478FB0041ED4D /* BarGraphVC.h */,
+				CC75F4C11C1478FB0041ED4D /* BarGraphVC.m */,
+				CC75F4C81C1479E30041ED4D /* LineGraphVC.h */,
+				CC75F4C91C1479E30041ED4D /* LineGraphVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CC75F4BD1C1478A70041ED4D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC75F4A01C1477D40041ED4D /* Main.storyboard */,
+				CC75F4C21C1478FB0041ED4D /* BarGraphVC.xib */,
+				CC75F4CA1C1479E30041ED4D /* LineGraphVC.xib */,
+				CC75F4C51C1479210041ED4D /* BarView.h */,
+				CC75F4C61C1479210041ED4D /* BarView.m */,
+				CC75F4CD1C147A290041ED4D /* LineView.h */,
+				CC75F4CE1C147A290041ED4D /* LineView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +244,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC75F4C41C1478FB0041ED4D /* BarGraphVC.xib in Resources */,
+				CC75F4CC1C1479E30041ED4D /* LineGraphVC.xib in Resources */,
 				CC75F4A21C1477D40041ED4D /* Main.storyboard in Resources */,
 				CC75F4A71C1477D40041ED4D /* LaunchScreen.xib in Resources */,
 				CC75F4A41C1477D40041ED4D /* Images.xcassets in Resources */,
+				CC75F4BF1C1478C50041ED4D /* Little.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +268,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC75F49F1C1477D40041ED4D /* ViewController.m in Sources */,
+				CC75F4CB1C1479E30041ED4D /* LineGraphVC.m in Sources */,
+				CC75F4CF1C147A290041ED4D /* LineView.m in Sources */,
 				CC75F49C1C1477D40041ED4D /* AppDelegate.m in Sources */,
 				CC75F4991C1477D40041ED4D /* main.m in Sources */,
+				CC75F4C31C1478FB0041ED4D /* BarGraphVC.m in Sources */,
+				CC75F4C71C1479210041ED4D /* BarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +302,7 @@
 				CC75F4A11C1477D40041ED4D /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		CC75F4A51C1477D40041ED4D /* LaunchScreen.xib */ = {
